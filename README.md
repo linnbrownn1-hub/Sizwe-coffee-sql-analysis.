@@ -4,7 +4,7 @@ SQL Fundamentals assignment | Witle Plus | Databricks SQL
 
 An analysis of eight business questions from the Sizwe Coffee year-end review.
 Contents
-- Project overview
+- #Project-overview
 - Business questions
 - Dataset and relationships
 - Repository files
