@@ -9,20 +9,43 @@ An analysis of eight business questions from the Sizwe Coffee year-end review.
 
 - [Project overview](#project-overview)
 - [Business questions](#business-questions)
+- [Assignment Deliverables](#assignment-deliverables)
 - [Dataset and relationships](#dataset-and-relationships)
 - [SQL skills demonstrated](#sql-skills-demonstrated)
 - [Key findings](#key-findings)
-- [Definitions and assumptions](#key-findings).
-- [How to run in Databricks](#how-to-run-in-databricks)
+- [Definitions and assumptions](#definitions-and-assumptions).
 - [Validation and limitations](#validation-and-limitations)
 
-## Project Overview
-Sizwe Coffee (Pty) Ltd is the coffee roastery and wholesale supplier described in the assignment. It is based in Isando, Johannesburg, with a second distribution centre in Epping, Cape Town. It serves approximately 1,400 business customers, including grocery chains, restaurant groups, independent cafes, hotels and offices, through Wholesale and Subscription channels.
+## Project overview
 
-For the financial year ended 30 June 2025, Nomsa Dlamini, Financial Director, and Bongani Twala, National Sales Manager, need evidence for their year-end review. This project uses SQL in Databricks to analyse revenue, profitability, collections, customer accounts, trade promotions and representative performance. The supplied data covers 1 July 2023 to 30 June 2025.
-- FY2024: 1 July 2023 to 30 June 2024.
-- FY2025: 1 July 2024 to 30 June 2025.
-The scope is querying and analysis only; the queries do not change source records.
+This project completes the Witle Plus SQL Fundamentals assignment,**Analysing the Sizwe Coffee Business**, using Databricks SQL.
+
+### Business context
+
+Sizwe Coffee (Pty) Ltd is a coffee roastery and wholesale supplier based in Isando, Johannesburg, with a second distribution centre in Epping, Cape Town. It serves approximately 1,400 business customers, including grocery chains, restaurant groups, independent cafes, hotels and offices.
+
+The business operates through Wholesale and Subscription channels. Revenue increased from approximately R441 million in FY2024 to 480 million in FY2025.
+
+### The assignment scenario
+
+As a junior data analyst, I was tasked with answering eight business questions ahead of the year-end review for the financial year ended 30 June 2025.
+
+The analysis supports two decision-makers:
+- **Nomsa Dlamini, Financial Director:** understanding channel growth, product profitability, collections and the decline in gross margin.
+- **Bongani Twala, National Sales Manager:** identifying major customer accounts, gaps in promotional support, representative performance and seasonal sales patterns.
+
+The central financial issue is that revenue grew by nearly 9%, while gross margin declined from 34.7% to 33.0%.
+
+### Scope
+
+The project uses Data Query Language (DQL) to analyse the supplied dataset. It focuses on retrieving, summarising and interpreting data without changing the source records.
+
+The data covers 1 July 2023 to 30 June 2025:
+
+- **FY2024:** 1 July 2023 to 30 June 2024.
+- **FY2025:** 1 July 2024 to 30 June 2025.
+
+Although the assignment specifies PostgreSQL/DuckDB, the queries were adapted for and run in Databricks SQL.
 
 ## Business Questions
 | Task | Business question |
@@ -36,6 +59,12 @@ The scope is querying and analysis only; the queries do not change source record
 | 7 | How does monthly revenue change across the two years, and what does the rolling three-month average show? |
 | 8 | How did product-line margins and revenue shares contribute to the overall margin decline? |
 
+## Assignment deliverables
+
+| File | Contents |
+|---|---|
+| [queries.sql](queries.sql) | All eight queries in task order, each preceded by its task number. Required written interpretations appear as comments directly below the relevant query. |
+| [README.md](README.md) | Project overview, dataset and relationships, SQL skills demonstrated, instructions for reproducing the analysis, and findings supported by figures. |
 
 ## Dataset and Relationships
 he dataset covers 1 July 2023 to 30 June 2025.
